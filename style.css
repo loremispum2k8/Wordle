@@ -99,7 +99,7 @@ body{
     align-items: center;
     gap: 8px;
 }
-.keyboard-key{
+.keyboard-key, .deleteKey, .enterKey{
     height: 50px;
     width: 60px;
     border-radius: 6px;
@@ -116,12 +116,12 @@ body{
 .longer-key{
     width: 94px;
 }
-.keyboard-key:hover{
+.keyboard-key:hover, .deleteKey:hover, .enterKey:hover{
     background-color: #c1c9df;
     border:1px solid #c1c9df;
     transform: scale(1.04);
 }
-.keyboard-key:active{
+.keyboard-key:active, .deleteKey:active, .enterKey:active{
     background-color: #a6afc5;
     border:2px solid #a6afc5;
 }
